@@ -1,8 +1,11 @@
 {
   "name": "Scrim-s06ig2r",
   "description": "https://scrimba.com/learn-react-c0e/~05ec",
+  "homepage": "https://flandersfrybad.github.io/react-facts/",
   "scripts": {
     "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
